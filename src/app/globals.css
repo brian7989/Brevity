@@ -33,7 +33,8 @@ html[lang="ko"] .rich-editor__surface,
 html[lang="ko"] .comparison p,
 html[lang="ko"] .rich-answer,
 html[lang="ko"] .result-rationale p,
-html[lang="ko"] .result-action {
+html[lang="ko"] .result-action,
+html[lang="ko"] .original-disclosure__panel p {
   font-family: var(--font-sans), sans-serif;
   letter-spacing: -0.018em;
 }
@@ -587,6 +588,56 @@ footer {
   grid-template-columns: 1fr 1fr;
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--ink);
+}
+.original-disclosure {
+  border-top: 1px solid var(--line);
+}
+.original-disclosure__trigger {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  gap: 9px;
+  align-items: center;
+  border: 0;
+  padding: 14px 0;
+  color: var(--ink);
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+}
+.original-disclosure__trigger small {
+  justify-self: end;
+  color: var(--muted);
+  font-size: 11px;
+}
+.original-disclosure__trigger svg {
+  color: var(--muted);
+  transition: transform 160ms ease;
+}
+.original-disclosure__trigger[data-panel-open] svg {
+  transform: rotate(180deg);
+}
+.original-disclosure__close-label,
+.original-disclosure__trigger[data-panel-open] .original-disclosure__open-label {
+  display: none;
+}
+.original-disclosure__trigger[data-panel-open] .original-disclosure__close-label {
+  display: inline;
+}
+.original-disclosure__trigger:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+.original-disclosure__panel {
+  overflow: hidden;
+}
+.original-disclosure__panel p {
+  max-width: 980px;
+  margin: 0;
+  padding: 8px 0 24px;
+  font:
+    400 18px/1.55 var(--font-serif),
+    serif;
 }
 .comparison > div {
   padding: 22px 28px 24px 0;
