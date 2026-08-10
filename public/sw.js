@@ -1,6 +1,12 @@
-const CACHE_NAME = "brevity-offline-v1";
+const CACHE_NAME = "brevity-offline-v2";
 const OFFLINE_URL = "/offline";
-const PRECACHE_URLS = [OFFLINE_URL, "/manifest.webmanifest", "/icon.svg", "/pwa-icon/192", "/pwa-icon/512"];
+const PRECACHE_URLS = [
+  OFFLINE_URL,
+  "/manifest.webmanifest",
+  "/icon.svg",
+  "/icons/brevity-192.png",
+  "/icons/brevity-512.png",
+];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(PRECACHE_URLS)));

@@ -15,7 +15,8 @@
     "test:watch": "vitest",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "generate:challenges": "tsx scripts/generate-challenges.ts"
+    "generate:challenges": "tsx scripts/generate-challenges.ts",
+    "generate:pwa-icons": "tsx scripts/generate-pwa-icons.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",
@@ -43,6 +44,7 @@
     "eslint-config-next": "^16.3.0",
     "postcss": "^8.5.26",
     "prettier": "^3.9.6",
+    "sharp": "^0.35.3",
     "tailwindcss": "^4.3.3",
     "tsx": "^4.23.11",
     "typescript": "^6.0.3",

@@ -13,9 +13,9 @@ export default function manifest(): MetadataRoute.Manifest {
     theme_color: "#f4f1e9",
     categories: ["education", "productivity"],
     icons: [
-      { src: "/pwa-icon/192", sizes: "192x192", type: "image/png", purpose: "any" },
-      { src: "/pwa-icon/512", sizes: "512x512", type: "image/png", purpose: "any" },
-      { src: "/pwa-icon/512", sizes: "512x512", type: "image/png", purpose: "maskable" },
+      { src: "/icons/brevity-192.png", sizes: "192x192", type: "image/png", purpose: "any" },
+      { src: "/icons/brevity-512.png", sizes: "512x512", type: "image/png", purpose: "any" },
+      { src: "/icons/brevity-512.png", sizes: "512x512", type: "image/png", purpose: "maskable" },
     ],
   };
 }
