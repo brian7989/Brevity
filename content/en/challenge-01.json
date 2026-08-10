@@ -1,0 +1,21 @@
+{
+  "id": "challenge-01",
+  "date": "2026-08-01",
+  "passage": "The launch team planned to release the new mobile app on Tuesday, but final accessibility testing found that screen readers could not identify several checkout buttons. No customer data is at risk, and the web experience still works normally. The team will delay the app release by one week to fix the labels and repeat testing. Marketing has paused its campaign, and support teams do not need to contact customers.",
+  "keyPoints": [
+    {
+      "text": "The mobile app launch is delayed by one week.",
+      "importance": "essential"
+    },
+    {
+      "text": "The delay is to fix screen-reader labels on checkout buttons.",
+      "importance": "essential"
+    },
+    {
+      "text": "The web experience remains unaffected.",
+      "importance": "supporting"
+    }
+  ],
+  "referenceAnswer": "The mobile app launch is delayed one week to fix screen-reader labels; the web experience is unaffected.",
+  "difficulty": "easy"
+}

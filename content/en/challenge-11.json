@@ -1,0 +1,21 @@
+{
+  "id": "challenge-11",
+  "date": "2026-08-11",
+  "passage": "The neighborhood library will open two hours earlier on Saturdays beginning September 5 after a survey showed strong demand from families. To fund the change without adding staff, Tuesday closing time will move from 8 p.m. to 6 p.m. Weekday morning hours and all Sunday hours remain unchanged. The library will review attendance after three months.",
+  "keyPoints": [
+    {
+      "text": "The library will open two hours earlier on Saturdays starting September 5.",
+      "importance": "essential"
+    },
+    {
+      "text": "Tuesday closing moves from 8 p.m. to 6 p.m. to fund the change without more staff.",
+      "importance": "essential"
+    },
+    {
+      "text": "Attendance will be reviewed after three months.",
+      "importance": "supporting"
+    }
+  ],
+  "referenceAnswer": "The library will open earlier Saturdays and close earlier Tuesdays starting September 5, then review attendance after three months.",
+  "difficulty": "medium"
+}

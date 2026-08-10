@@ -1,0 +1,21 @@
+{
+  "id": "challenge-16",
+  "date": "2026-08-16",
+  "passage": "The editorial team is correcting yesterday's article about regional water use. The story said agricultural consumption increased 14 percent, but the underlying report shows a 4 percent increase. The main conclusion—that drought restrictions have not reduced total demand—still holds. The online article is corrected, and print readers will see a note tomorrow.",
+  "keyPoints": [
+    {
+      "text": "The article incorrectly reported a 14% agricultural water-use increase instead of 4%.",
+      "importance": "essential"
+    },
+    {
+      "text": "The main conclusion about drought restrictions and total demand remains valid.",
+      "importance": "essential"
+    },
+    {
+      "text": "The online version is corrected and print readers will receive a note.",
+      "importance": "supporting"
+    }
+  ],
+  "referenceAnswer": "Yesterday's water-use article overstated agricultural growth as 14% instead of 4%; the main conclusion remains unchanged.",
+  "difficulty": "easy"
+}

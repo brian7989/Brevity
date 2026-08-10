@@ -1,0 +1,21 @@
+{
+  "id": "challenge-06",
+  "date": "2026-08-06",
+  "passage": "A supplier has recalled one batch of rechargeable batteries used in the Atlas field kit after two units overheated during charging. No injuries occurred. Only kits with serial numbers beginning AT7 are affected. Customers should stop charging those kits and use the prepaid label arriving by email today. Replacements will ship within five business days.",
+  "keyPoints": [
+    {
+      "text": "Customers must stop charging Atlas kits whose serial numbers begin AT7.",
+      "importance": "essential"
+    },
+    {
+      "text": "The AT7 battery batch was recalled after overheating incidents.",
+      "importance": "essential"
+    },
+    {
+      "text": "Returned batteries will be replaced within five business days.",
+      "importance": "supporting"
+    }
+  ],
+  "referenceAnswer": "Stop charging Atlas kits with AT7 serial numbers and return them; replacement batteries ship within five business days.",
+  "difficulty": "hard"
+}

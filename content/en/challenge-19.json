@@ -1,0 +1,21 @@
+{
+  "id": "challenge-19",
+  "date": "2026-08-19",
+  "passage": "We are ending the weekly all-hands meeting after attendance fell below half the company for three consecutive months. Beginning Friday, teams will receive a five-minute recorded update and a written decision log. A live company forum will run on the first Thursday of each month for questions and discussion. The first forum is October 3.",
+  "keyPoints": [
+    {
+      "text": "The weekly all-hands meeting is ending because attendance stayed below half the company.",
+      "importance": "essential"
+    },
+    {
+      "text": "It will be replaced by recorded updates and written decision logs.",
+      "importance": "essential"
+    },
+    {
+      "text": "A live question forum will run monthly starting October 3.",
+      "importance": "supporting"
+    }
+  ],
+  "referenceAnswer": "Weekly all-hands meetings will become recorded updates and decision logs, with a live forum monthly starting October 3.",
+  "difficulty": "easy"
+}

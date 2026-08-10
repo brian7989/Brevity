@@ -1,0 +1,21 @@
+{
+  "id": "challenge-08",
+  "date": "2026-08-08",
+  "passage": "We will not pursue the proposed partnership with Northstar this quarter. Their distribution would expand our reach, but the agreement requires exclusivity that would prevent two existing customer integrations. The partnerships team will keep the relationship warm and revisit a narrower, nonexclusive deal after Northstar's platform update next spring.",
+  "keyPoints": [
+    {
+      "text": "The company will not pursue Northstar's proposed partnership this quarter.",
+      "importance": "essential"
+    },
+    {
+      "text": "Northstar's exclusivity requirement would block two existing integrations.",
+      "importance": "essential"
+    },
+    {
+      "text": "A narrower nonexclusive deal may be revisited next spring.",
+      "importance": "supporting"
+    }
+  ],
+  "referenceAnswer": "We are declining Northstar's exclusive partnership to protect existing integrations, but may revisit a narrower deal next spring.",
+  "difficulty": "medium"
+}

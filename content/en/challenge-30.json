@@ -1,0 +1,21 @@
+{
+  "id": "challenge-30",
+  "date": "2026-08-30",
+  "passage": "The company will close its downtown office when the lease ends in March. Only 14 employees use it regularly, and renewal costs rose 35 percent. The company will provide coworking memberships and keep quarterly team gatherings in the city. No roles are being eliminated, and employees may continue working remotely.",
+  "keyPoints": [
+    {
+      "text": "The downtown office will close when its lease ends in March.",
+      "importance": "essential"
+    },
+    {
+      "text": "Low usage and a 35% renewal-cost increase drove the decision.",
+      "importance": "essential"
+    },
+    {
+      "text": "No jobs are eliminated; coworking, remote work, and quarterly city gatherings continue.",
+      "importance": "supporting"
+    }
+  ],
+  "referenceAnswer": "The lightly used downtown office will close in March after a 35% rent increase; jobs and remote work are unaffected.",
+  "difficulty": "hard"
+}

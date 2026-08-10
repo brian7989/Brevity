@@ -1,0 +1,21 @@
+{
+  "id": "challenge-15",
+  "date": "2026-08-15",
+  "passage": "Usage data shows that customers who complete the setup checklist in their first session are twice as likely to remain active after 30 days. Only 38 percent currently finish it. The growth team will shorten the checklist from seven steps to four and remove the optional profile photo. The experiment begins Monday for half of new accounts.",
+  "keyPoints": [
+    {
+      "text": "Completing the setup checklist doubles 30-day retention, but only 38% finish it.",
+      "importance": "essential"
+    },
+    {
+      "text": "Growth will test a shorter four-step checklist for half of new users Monday.",
+      "importance": "essential"
+    },
+    {
+      "text": "The optional profile-photo step will be removed.",
+      "importance": "supporting"
+    }
+  ],
+  "referenceAnswer": "Because setup completion doubles 30-day retention, growth will test a four-step checklist for half of new users Monday.",
+  "difficulty": "hard"
+}

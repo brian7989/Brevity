@@ -1,0 +1,21 @@
+{
+  "id": "challenge-14",
+  "date": "2026-08-14",
+  "passage": "The board approved construction of the new community clinic after the revised plan cut costs by sharing laboratory space with the adjacent hospital. Construction begins in November and is expected to finish next summer. The clinic will offer primary and urgent care but not overnight treatment. Fundraising still needs to close a $400,000 equipment gap.",
+  "keyPoints": [
+    {
+      "text": "The board approved the community clinic, which is expected to open next summer.",
+      "importance": "essential"
+    },
+    {
+      "text": "A shared laboratory reduced construction costs enough for approval.",
+      "importance": "essential"
+    },
+    {
+      "text": "Fundraising still needs $400,000 for equipment.",
+      "importance": "supporting"
+    }
+  ],
+  "referenceAnswer": "The community clinic will open next summer after a cost-saving redesign, though fundraising still needs $400,000 for equipment.",
+  "difficulty": "medium"
+}

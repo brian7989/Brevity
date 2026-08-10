@@ -1,0 +1,21 @@
+{
+  "id": "challenge-02",
+  "date": "2026-08-02",
+  "passage": "After a six-week pilot, the four-day support schedule reduced average ticket resolution time by 18 percent and did not lower customer satisfaction. However, Friday coverage became thin after 3 p.m., causing a small backlog each weekend. Leadership will extend the pilot for another month, add a rotating Friday shift, and decide whether to adopt the schedule permanently after reviewing the new data.",
+  "keyPoints": [
+    {
+      "text": "The four-day support pilot improved resolution time without reducing satisfaction.",
+      "importance": "essential"
+    },
+    {
+      "text": "Thin Friday coverage created weekend backlogs.",
+      "importance": "essential"
+    },
+    {
+      "text": "The pilot will be extended with a rotating Friday shift before a permanent decision.",
+      "importance": "supporting"
+    }
+  ],
+  "referenceAnswer": "The four-day support pilot improved resolution time without hurting satisfaction, but Friday coverage needs fixing before a permanent decision.",
+  "difficulty": "medium"
+}

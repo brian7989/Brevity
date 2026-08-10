@@ -1,0 +1,21 @@
+{
+  "id": "challenge-27",
+  "date": "2026-08-27",
+  "passage": "The annual volunteer day is moving from Friday to Saturday after partner organizations said weekday events disrupted their services. Employees who participate will receive a floating day off to use within 60 days. Transportation and lunch are provided, and family members over age 12 may join. Registration closes September 18.",
+  "keyPoints": [
+    {
+      "text": "Volunteer day is moving from Friday to Saturday to avoid disrupting partner services.",
+      "importance": "essential"
+    },
+    {
+      "text": "Participating employees receive a floating day off usable within 60 days.",
+      "importance": "essential"
+    },
+    {
+      "text": "Registration closes September 18.",
+      "importance": "supporting"
+    }
+  ],
+  "referenceAnswer": "Volunteer day moves to Saturday, with participants receiving a floating day off; registration closes September 18.",
+  "difficulty": "hard"
+}

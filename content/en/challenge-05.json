@@ -1,0 +1,21 @@
+{
+  "id": "challenge-05",
+  "date": "2026-08-05",
+  "passage": "Quarterly revenue grew 12 percent, driven mainly by renewals from mid-sized customers. New customer sales missed the target by 9 percent because two large contracts slipped into next quarter. Expenses remained within plan. The company is keeping its annual forecast unchanged because both delayed contracts are signed and scheduled to start in October.",
+  "keyPoints": [
+    {
+      "text": "Quarterly revenue grew 12%, driven by mid-sized renewals.",
+      "importance": "essential"
+    },
+    {
+      "text": "New sales missed target because two large signed contracts slipped into next quarter.",
+      "importance": "essential"
+    },
+    {
+      "text": "The annual forecast remains unchanged because the contracts are signed and scheduled.",
+      "importance": "essential"
+    }
+  ],
+  "referenceAnswer": "Revenue rose 12% on renewals; new sales missed target due to two signed contracts slipping, so the annual forecast is unchanged.",
+  "difficulty": "medium"
+}

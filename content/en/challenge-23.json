@@ -1,0 +1,21 @@
+{
+  "id": "challenge-23",
+  "date": "2026-08-23",
+  "passage": "The hiring panel chose not to fill the open design role after the final candidates lacked the research experience the team needs this year. The position remains funded. Recruiting will revise the description, add a practical research exercise, and reopen the search in two weeks. Current project dates will not change because a contractor is extending through December.",
+  "keyPoints": [
+    {
+      "text": "The design role was not filled because finalists lacked needed research experience.",
+      "importance": "essential"
+    },
+    {
+      "text": "The funded role will reopen in two weeks with a revised research-focused process.",
+      "importance": "essential"
+    },
+    {
+      "text": "A contractor extension keeps current projects on schedule.",
+      "importance": "supporting"
+    }
+  ],
+  "referenceAnswer": "The funded design role will reopen in two weeks with a research focus; a contractor extension keeps projects on schedule.",
+  "difficulty": "medium"
+}

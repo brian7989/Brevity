@@ -1,0 +1,21 @@
+{
+  "id": "challenge-24",
+  "date": "2026-08-24",
+  "passage": "A controlled study of 240 commuters found that real-time crowding information shifted riders away from the busiest trains, reducing peak crowding by 8 percent. Total ridership did not change, and the effect was strongest when the app suggested a specific train. The transit agency will expand the feature systemwide this winter.",
+  "keyPoints": [
+    {
+      "text": "Real-time train suggestions reduced peak crowding by 8% without reducing ridership.",
+      "importance": "essential"
+    },
+    {
+      "text": "The transit agency will expand the feature systemwide this winter.",
+      "importance": "essential"
+    },
+    {
+      "text": "The effect was strongest when the app recommended a specific train.",
+      "importance": "supporting"
+    }
+  ],
+  "referenceAnswer": "Real-time train suggestions reduced peak crowding 8% without lowering ridership, so the feature will expand systemwide.",
+  "difficulty": "hard"
+}

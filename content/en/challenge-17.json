@@ -1,0 +1,21 @@
+{
+  "id": "challenge-17",
+  "date": "2026-08-17",
+  "passage": "Renovation of the third floor is two weeks behind schedule because custom acoustic panels arrived damaged. Meeting rooms remain usable through the end of the month, so daily work is unaffected. The contractor will install temporary panels before the sales summit and replace them after the event. The final budget is expected to remain unchanged.",
+  "keyPoints": [
+    {
+      "text": "Third-floor renovations are two weeks late because acoustic panels arrived damaged.",
+      "importance": "essential"
+    },
+    {
+      "text": "Temporary panels will keep the sales summit and daily work on track.",
+      "importance": "essential"
+    },
+    {
+      "text": "The final budget is expected to remain unchanged.",
+      "importance": "supporting"
+    }
+  ],
+  "referenceAnswer": "Third-floor renovations are two weeks late due to damaged panels, but temporary panels will protect the sales summit and budget.",
+  "difficulty": "medium"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "challenge-07",
+  "date": "2026-08-07",
+  "passage": "The research team found that meeting-free Wednesday afternoons increased focused work by an average of 46 minutes per employee, but the effect disappeared for people with more than five direct reports. Participants reported no decline in collaboration. The team recommends continuing the policy while testing separate calendar protections for managers during the next eight-week study.",
+  "keyPoints": [
+    {
+      "text": "Meeting-free Wednesday afternoons increased focused work without reducing collaboration.",
+      "importance": "essential"
+    },
+    {
+      "text": "The benefit did not extend to managers with more than five direct reports.",
+      "importance": "essential"
+    },
+    {
+      "text": "The policy should continue while separate protections for managers are tested.",
+      "importance": "supporting"
+    }
+  ],
+  "referenceAnswer": "Meeting-free Wednesday afternoons improved focus without hurting collaboration, but managers need a different approach.",
+  "difficulty": "easy"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "challenge-04",
+  "date": "2026-08-04",
+  "passage": "Customer interviews showed that teams rarely use the new dashboard filters because the labels describe technical database fields rather than familiar business concepts. The filters themselves work correctly. Product will rename and regroup them in the next release instead of rebuilding the underlying system. The planned export feature will move to the following sprint to make room for the change.",
+  "keyPoints": [
+    {
+      "text": "Customers avoid the dashboard filters because their labels use unfamiliar technical terms.",
+      "importance": "essential"
+    },
+    {
+      "text": "Product will relabel and regroup the filters rather than rebuild them.",
+      "importance": "essential"
+    },
+    {
+      "text": "The export feature moves back one sprint.",
+      "importance": "supporting"
+    }
+  ],
+  "referenceAnswer": "Product will relabel and regroup confusing dashboard filters next release, delaying exports by one sprint.",
+  "difficulty": "easy"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "challenge-13",
+  "date": "2026-08-13",
+  "passage": "The security team detected repeated login attempts against employee accounts from a known bot network. Multi-factor authentication blocked every attempt, and there is no evidence of account access or data exposure. As a precaution, employees who have not changed passwords in the past year will be prompted to do so this week. No immediate action is required today.",
+  "keyPoints": [
+    {
+      "text": "Multi-factor authentication blocked all bot-network login attempts, with no breach or exposure.",
+      "importance": "essential"
+    },
+    {
+      "text": "Employees with passwords older than one year will be prompted to change them this week.",
+      "importance": "essential"
+    },
+    {
+      "text": "No immediate employee action is required today.",
+      "importance": "supporting"
+    }
+  ],
+  "referenceAnswer": "MFA blocked a bot attack with no breach; older employee passwords will be reset this week, with no action needed today.",
+  "difficulty": "easy"
+}

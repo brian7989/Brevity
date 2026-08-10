@@ -1,0 +1,74 @@
+{
+  "Metadata": {
+    "title": "Brevity",
+    "description": "A daily game of identifying, prioritizing, and compressing what matters."
+  },
+  "Game": {
+    "home": "Brevity home",
+    "principle": "Game principle",
+    "identify": "Identify",
+    "prioritize": "Prioritize",
+    "compress": "Compress",
+    "streak": "{count, plural, one {# day streak} other {# day streak}}",
+    "today": "Today’s challenge",
+    "titlePrimary": "Say what matters.",
+    "titleAccent": "Use fewer words.",
+    "help": "Preserve the essential meaning and relationships, then remove unnecessary context to make the passage clear and concise.",
+    "configurationError": "AI scoring is not configured. Add your gateway key to submit.",
+    "original": "Original",
+    "yourVersion": "Your version",
+    "words": "words",
+    "answerRule": "You can submit once.",
+    "scoringError": "Scoring stumbled. Your attempt is safe—try again.",
+    "scoring": "Reading closely…",
+    "retry": "Try scoring again",
+    "submit": "Submit",
+    "footerGame": "A daily writing game",
+    "footerMotto": "Short, not shallow.",
+    "language": "Language"
+  },
+  "Editor": {
+    "placeholder": "What is the clearest, shortest version?",
+    "ariaLabel": "Your version",
+    "toolbar": "Formatting options",
+    "textStyle": "Text style",
+    "text": "Text",
+    "heading": "Heading",
+    "subheading": "Subheading",
+    "quote": "Quote",
+    "bold": "Bold",
+    "italic": "Italic",
+    "bulletList": "Bulleted list",
+    "numberedList": "Numbered list",
+    "list": "List"
+  },
+  "Result": {
+    "complete": "Today, complete",
+    "title": {
+      "A": "Meaning, kept.",
+      "B": "Mostly intact.",
+      "C": "The point blurred.",
+      "D": "The point got lost."
+    },
+    "signal": "Signal",
+    "clarity": "Clarity",
+    "words": "Words",
+    "youWrote": "You wrote",
+    "reference": "Reference",
+    "playerMeta": "{count} words",
+    "referenceMeta": "{count} original · {percent}% cut",
+    "kept": "Kept",
+    "blurred": "Blurred",
+    "missed": "Missed",
+    "nothingKept": "Nothing essential was preserved.",
+    "tomorrow": "One attempt. A fresh passage arrives tomorrow."
+  },
+  "DevTools": {
+    "label": "Dev",
+    "toolbar": "Development tools",
+    "challenge": "Challenge",
+    "previous": "Previous challenge",
+    "next": "Next challenge",
+    "reset": "Reset"
+  }
+}

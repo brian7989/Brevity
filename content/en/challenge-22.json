@@ -1,0 +1,21 @@
+{
+  "id": "challenge-22",
+  "date": "2026-08-22",
+  "passage": "The migration to the new billing system completed overnight with no lost transactions. About 3 percent of customers may see duplicate invoice emails because a notification job restarted unexpectedly; they have not been charged twice. Support has a response template, and engineering will suppress remaining duplicate messages within the hour.",
+  "keyPoints": [
+    {
+      "text": "The billing migration completed without lost transactions or duplicate charges.",
+      "importance": "essential"
+    },
+    {
+      "text": "About 3% of customers may receive duplicate invoice emails.",
+      "importance": "essential"
+    },
+    {
+      "text": "Engineering will suppress remaining duplicates within the hour.",
+      "importance": "supporting"
+    }
+  ],
+  "referenceAnswer": "Billing migrated without lost transactions; 3% of customers may get duplicate invoices but were not charged twice.",
+  "difficulty": "easy"
+}

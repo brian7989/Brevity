@@ -1,0 +1,21 @@
+{
+  "id": "challenge-28",
+  "date": "2026-08-28",
+  "passage": "A manufacturing test found that using recycled aluminum for the laptop frame cuts material emissions by 38 percent and does not affect durability. It increases unit cost by $4 and creates a slightly different finish. The hardware team recommends adopting it in the next model and showing customers the finish before launch.",
+  "keyPoints": [
+    {
+      "text": "The next laptop should use recycled aluminum.",
+      "importance": "essential"
+    },
+    {
+      "text": "It cuts material emissions 38% without reducing durability.",
+      "importance": "essential"
+    },
+    {
+      "text": "It adds $4 per unit and creates a different finish that customers should see before launch.",
+      "importance": "supporting"
+    }
+  ],
+  "referenceAnswer": "Use recycled aluminum in the next laptop: it cuts material emissions 38% without hurting durability, at $4 more per unit.",
+  "difficulty": "easy"
+}

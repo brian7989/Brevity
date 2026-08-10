@@ -1,0 +1,21 @@
+{
+  "id": "challenge-03",
+  "date": "2026-08-03",
+  "passage": "City engineers closed the Oak Street bridge this morning after sensors detected unusual movement in one support joint. Inspectors found no collapse risk, but traffic will be diverted through Friday while crews replace the joint. Bus routes 4 and 7 will run about 15 minutes late. Pedestrians and cyclists may still use the east-side path.",
+  "keyPoints": [
+    {
+      "text": "Oak Street bridge is closed to vehicles through Friday.",
+      "importance": "essential"
+    },
+    {
+      "text": "The closure allows a precautionary support-joint replacement.",
+      "importance": "essential"
+    },
+    {
+      "text": "Bus routes 4 and 7 will be delayed, while the pedestrian and cycle path stays open.",
+      "importance": "supporting"
+    }
+  ],
+  "referenceAnswer": "Oak Street bridge is closed to vehicles through Friday for a precautionary joint repair; buses 4 and 7 will be delayed.",
+  "difficulty": "hard"
+}

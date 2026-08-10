@@ -1,0 +1,21 @@
+{
+  "id": "challenge-12",
+  "date": "2026-08-12",
+  "passage": "A pricing experiment showed that annual-plan customers accepted a 7 percent increase with no measurable rise in cancellations, while monthly-plan cancellations rose sharply at the same price change. Finance recommends increasing annual prices in January but keeping monthly prices steady until the onboarding team can test whether clearer value messaging improves retention.",
+  "keyPoints": [
+    {
+      "text": "Annual-plan prices should rise 7% in January.",
+      "importance": "essential"
+    },
+    {
+      "text": "Monthly prices should remain unchanged because the same increase drove cancellations.",
+      "importance": "essential"
+    },
+    {
+      "text": "Onboarding will test whether clearer value messaging improves monthly retention.",
+      "importance": "supporting"
+    }
+  ],
+  "referenceAnswer": "Raise annual-plan prices 7% in January, but hold monthly prices because the same increase drove cancellations.",
+  "difficulty": "hard"
+}

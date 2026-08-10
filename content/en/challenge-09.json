@@ -1,0 +1,21 @@
+{
+  "id": "challenge-09",
+  "date": "2026-08-09",
+  "passage": "Heavy rain flooded the warehouse loading area overnight, damaging packaging but not inventory. Morning shipments will leave four to six hours late while the team moves operations to the north dock. Orders due tomorrow remain on schedule. Facilities expects the main loading area to reopen by noon after drains are cleared and electrical equipment is inspected.",
+  "keyPoints": [
+    {
+      "text": "Warehouse flooding will delay today's shipments by four to six hours.",
+      "importance": "essential"
+    },
+    {
+      "text": "Inventory was not damaged and tomorrow's orders remain on schedule.",
+      "importance": "essential"
+    },
+    {
+      "text": "Operations moved to the north dock while the main area is cleared and inspected.",
+      "importance": "supporting"
+    }
+  ],
+  "referenceAnswer": "Warehouse flooding damaged only packaging and will delay today's shipments 4–6 hours; tomorrow's orders remain on schedule.",
+  "difficulty": "hard"
+}

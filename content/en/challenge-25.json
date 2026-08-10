@@ -1,0 +1,21 @@
+{
+  "id": "challenge-25",
+  "date": "2026-08-25",
+  "passage": "Because of a national shortage, the clinic has only a three-week supply of the standard flu vaccine. Children, pregnant patients, and adults over 65 will receive priority until a new shipment arrives. Other patients may book appointments for late October or use partner pharmacies, which currently have supply. COVID vaccines are unaffected.",
+  "keyPoints": [
+    {
+      "text": "A flu-vaccine shortage means the clinic will prioritize children, pregnant patients, and adults over 65.",
+      "importance": "essential"
+    },
+    {
+      "text": "Other patients should book for late October or use partner pharmacies.",
+      "importance": "essential"
+    },
+    {
+      "text": "COVID vaccine supply is unaffected.",
+      "importance": "supporting"
+    }
+  ],
+  "referenceAnswer": "A flu-vaccine shortage means priority groups get the clinic's remaining supply; others should book late October or use pharmacies.",
+  "difficulty": "easy"
+}

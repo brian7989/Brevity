@@ -1,0 +1,21 @@
+{
+  "id": "challenge-21",
+  "date": "2026-08-21",
+  "passage": "The coastal cleanup collected 6.2 tons of waste, nearly double last year's total, with fishing gear making up the largest category. More volunteers participated, but organizers also found more debris per mile. The group will use the findings to ask the harbor authority for covered disposal bins near the three busiest docks.",
+  "keyPoints": [
+    {
+      "text": "The coastal cleanup collected 6.2 tons of waste, nearly twice last year's total.",
+      "importance": "essential"
+    },
+    {
+      "text": "Fishing gear was the largest waste category and debris per mile increased.",
+      "importance": "essential"
+    },
+    {
+      "text": "Organizers will seek covered bins at the three busiest docks.",
+      "importance": "supporting"
+    }
+  ],
+  "referenceAnswer": "The cleanup collected a record 6.2 tons, led by fishing gear, prompting a request for covered bins at busy docks.",
+  "difficulty": "hard"
+}

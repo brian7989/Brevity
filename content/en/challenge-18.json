@@ -1,0 +1,21 @@
+{
+  "id": "challenge-18",
+  "date": "2026-08-18",
+  "passage": "The school district's free breakfast program increased participation by 31 percent when meals were served in classrooms rather than the cafeteria. Teachers reported that morning instruction began about six minutes later, though attendance improved slightly. The district will test earlier food delivery at three schools before deciding whether to expand classroom breakfast.",
+  "keyPoints": [
+    {
+      "text": "Classroom breakfast increased participation by 31% but delayed instruction by six minutes.",
+      "importance": "essential"
+    },
+    {
+      "text": "Three schools will test earlier delivery before districtwide expansion.",
+      "importance": "essential"
+    },
+    {
+      "text": "Attendance improved slightly.",
+      "importance": "supporting"
+    }
+  ],
+  "referenceAnswer": "Classroom breakfast boosted participation 31% but delayed lessons, so three schools will test earlier delivery before expansion.",
+  "difficulty": "hard"
+}

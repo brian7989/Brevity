@@ -1,0 +1,21 @@
+{
+  "id": "challenge-29",
+  "date": "2026-08-29",
+  "passage": "The museum's new reservation system accidentally allowed 600 people to book a members-only preview that has room for 400. All member reservations will be honored. Nonmembers who booked will receive first access to the public opening plus a refund of their service fee. The museum will email affected visitors by 5 p.m. today.",
+  "keyPoints": [
+    {
+      "text": "A reservation error oversold the members-only preview by 200 places.",
+      "importance": "essential"
+    },
+    {
+      "text": "Members keep their reservations; affected nonmembers receive a fee refund and first public-opening access.",
+      "importance": "essential"
+    },
+    {
+      "text": "Affected visitors will be emailed by 5 p.m.",
+      "importance": "supporting"
+    }
+  ],
+  "referenceAnswer": "A booking error oversold the members' preview; members keep seats, while nonmembers get refunds and first public-opening access.",
+  "difficulty": "medium"
+}

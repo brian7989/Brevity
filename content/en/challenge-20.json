@@ -1,0 +1,21 @@
+{
+  "id": "challenge-20",
+  "date": "2026-08-20",
+  "passage": "A competitor released a lower-priced version of its analytics product yesterday. It lacks our automated reporting and only supports half as many data sources, but its simple setup may appeal to small teams. We will not cut prices immediately. Sales will emphasize automation, while product tests a lighter starter experience this quarter.",
+  "keyPoints": [
+    {
+      "text": "The company will not cut prices in response to the cheaper competitor.",
+      "importance": "essential"
+    },
+    {
+      "text": "Sales will emphasize automation while product tests a simpler starter experience.",
+      "importance": "essential"
+    },
+    {
+      "text": "The competitor is cheaper and easier to set up but has fewer capabilities.",
+      "importance": "supporting"
+    }
+  ],
+  "referenceAnswer": "We will answer a cheaper competitor by emphasizing automation and testing a simpler starter product, not by cutting prices.",
+  "difficulty": "medium"
+}

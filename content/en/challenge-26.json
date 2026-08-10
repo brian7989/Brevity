@@ -1,0 +1,21 @@
+{
+  "id": "challenge-26",
+  "date": "2026-08-26",
+  "passage": "The team originally planned to build a custom search engine for the knowledge base. A two-week prototype showed that an existing service meets accuracy and privacy requirements at one-third the projected first-year cost. Engineering recommends buying the service and using the saved quarter to improve article quality and search analytics.",
+  "keyPoints": [
+    {
+      "text": "Engineering recommends buying an existing knowledge-base search service instead of building one.",
+      "importance": "essential"
+    },
+    {
+      "text": "The service meets accuracy and privacy requirements at one-third the first-year cost.",
+      "importance": "essential"
+    },
+    {
+      "text": "The saved quarter will go to article quality and search analytics.",
+      "importance": "supporting"
+    }
+  ],
+  "referenceAnswer": "Buy the existing knowledge-base search service: it meets requirements at one-third the cost and frees a quarter for content improvements.",
+  "difficulty": "medium"
+}

@@ -1,0 +1,74 @@
+{
+  "Metadata": {
+    "title": "Brevity",
+    "description": "핵심을 놓치지 않으면서 더 짧고 분명하게 쓰는 힘을 기르는 매일의 글쓰기 연습입니다."
+  },
+  "Game": {
+    "home": "Brevity 홈",
+    "principle": "게임 원칙",
+    "identify": "핵심",
+    "prioritize": "간결",
+    "compress": "명료",
+    "streak": "{count}일 연속",
+    "today": "오늘의 연습",
+    "titlePrimary": "핵심은 지키고,",
+    "titleAccent": "글은 간결하게.",
+    "help": "원문의 핵심 내용과 인과관계는 그대로 두고, 불필요한 설명을 덜어 더 간결하고 명료하게 다시 써보세요.",
+    "configurationError": "AI 채점이 설정되어 있지 않습니다. 제출하려면 AI Gateway 키를 추가하세요.",
+    "original": "원문",
+    "yourVersion": "내 답안",
+    "words": "단어",
+    "answerRule": "답안은 한 번만 제출할 수 있습니다.",
+    "scoringError": "채점 중 문제가 생겼습니다. 답안은 그대로 남아 있으니 다시 시도해 주세요.",
+    "scoring": "답안을 검토하고 있습니다…",
+    "retry": "다시 채점하기",
+    "submit": "제출",
+    "footerGame": "매일 한 문제씩, 핵심 쓰기",
+    "footerMotto": "짧되, 얕지 않게.",
+    "language": "언어"
+  },
+  "Editor": {
+    "placeholder": "핵심을 짧고 분명하게 써보세요.",
+    "ariaLabel": "내 답안",
+    "toolbar": "서식 도구",
+    "textStyle": "문단 스타일",
+    "text": "본문",
+    "heading": "제목",
+    "subheading": "소제목",
+    "quote": "인용",
+    "bold": "굵게",
+    "italic": "기울임",
+    "bulletList": "글머리 기호 목록",
+    "numberedList": "번호 목록",
+    "list": "목록"
+  },
+  "Result": {
+    "complete": "오늘의 연습 완료",
+    "title": {
+      "A": "핵심을 정확히 살렸습니다.",
+      "B": "핵심을 대체로 살렸습니다.",
+      "C": "핵심이 조금 흐려졌습니다.",
+      "D": "핵심을 놓쳤습니다."
+    },
+    "signal": "핵심 전달",
+    "clarity": "명확성",
+    "words": "단어 수",
+    "youWrote": "내 답안",
+    "reference": "참고 답안",
+    "playerMeta": "{count}단어",
+    "referenceMeta": "원문 {count}단어 · {percent}% 줄임",
+    "kept": "살린 핵심",
+    "blurred": "불분명한 부분",
+    "missed": "놓친 핵심",
+    "nothingKept": "원문의 핵심을 살리지 못했습니다.",
+    "tomorrow": "오늘 연습은 끝났습니다. 내일 새로운 문제가 나옵니다."
+  },
+  "DevTools": {
+    "label": "개발",
+    "toolbar": "개발 도구",
+    "challenge": "문제",
+    "previous": "이전 문제",
+    "next": "다음 문제",
+    "reset": "다시 풀기"
+  }
+}
