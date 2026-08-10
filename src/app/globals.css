@@ -630,6 +630,50 @@ footer {
   white-space: nowrap;
   border: 0;
 }
+.offline-screen {
+  width: min(1320px, calc(100% - 64px));
+  height: 100svh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 80px 1fr;
+}
+.offline-screen__wordmark {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--ink);
+  font:
+    400 31px/1 var(--font-serif),
+    serif;
+  letter-spacing: -0.02em;
+}
+.offline-screen__wordmark span {
+  color: var(--accent);
+}
+.offline-screen__message {
+  align-self: center;
+  max-width: 760px;
+  padding-bottom: 80px;
+}
+.offline-screen__message > p {
+  margin: 0 0 18px;
+  color: var(--accent);
+  text-transform: uppercase;
+  font:
+    500 10px/1.4 var(--font-mono),
+    monospace;
+  letter-spacing: 0.12em;
+}
+.offline-screen__message h1 {
+  margin-bottom: 24px;
+}
+.offline-screen__message > span {
+  display: block;
+  max-width: 620px;
+  color: var(--muted);
+  font:
+    400 20px/1.5 var(--font-serif),
+    serif;
+}
 .select-trigger {
   display: inline-flex;
   align-items: center;
@@ -777,6 +821,19 @@ footer {
     height: 100svh;
     min-height: 0;
     grid-template-rows: 64px minmax(0, 1fr);
+  }
+  .offline-screen {
+    width: calc(100% - 32px);
+    grid-template-rows: 64px 1fr;
+  }
+  .offline-screen__message {
+    padding-bottom: 64px;
+  }
+  .offline-screen__message h1 {
+    font-size: clamp(44px, 13vw, 58px);
+  }
+  .offline-screen__message > span {
+    font-size: 17px;
   }
   .masthead {
     height: 64px;

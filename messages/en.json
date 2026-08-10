@@ -67,6 +67,10 @@
     "nothingKept": "Nothing essential was preserved.",
     "tomorrow": "One attempt. A fresh passage arrives tomorrow."
   },
+  "Offline": {
+    "title": "Connect to continue.",
+    "description": "Brevity needs an internet connection to load today’s challenge and grade your answer."
+  },
   "DevTools": {
     "label": "Dev",
     "toolbar": "Development tools",
