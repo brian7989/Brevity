@@ -9,6 +9,7 @@ const result = {
   signal: "A" as const,
   clarity: "A" as const,
   feedback: "Clear and complete while staying concise.",
+  rationale: "The answer preserves the essential meaning without adding distortion.",
   preservedKeyPoints: [],
   partialKeyPoints: [],
   missedKeyPoints: [],

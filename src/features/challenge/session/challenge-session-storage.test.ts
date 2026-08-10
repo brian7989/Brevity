@@ -34,6 +34,7 @@ const storedResult = {
   partialKeyPoints: [],
   playerWords: 7,
   preservedKeyPoints: ["Revenue rose because renewals offset weak new sales."],
+  rationale: "The answer preserves the main revenue result and weak new sales context.",
   signal: "A",
 } satisfies StoredResult;
 

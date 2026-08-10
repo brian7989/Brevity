@@ -3,15 +3,7 @@ import { useTranslations } from "next-intl";
 import type { Challenge } from "@/features/challenge";
 import type { StoredResult } from "@/features/results/schemas";
 
-import {
-  AnswerComparison,
-  ResultEyebrow,
-  ResultFeedback,
-  ResultTitle,
-  ScoreGrid,
-  SignalCheck,
-  TomorrowNote,
-} from "./components";
+import { AnswerComparison, ResultEyebrow, ResultExplanation, ResultSummary, TomorrowNote } from "./components";
 import { AnswerBlock } from "./components/answer-comparison/components";
 
 type ResultViewProps = { challenge: Challenge; result: StoredResult; streak: number };
@@ -22,16 +14,21 @@ export function ResultView({ challenge, result, streak }: ResultViewProps) {
   return (
     <section className="result" aria-labelledby="result-title">
       <ResultEyebrow completeLabel={t("complete")} streakLabel={game("streak", { count: streak })} />
-      <ResultTitle title={t(`title.${result.signal}`)} />
-      <ScoreGrid
+      <ResultSummary
         clarityLabel={t("clarity")}
         clarityValue={result.clarity}
         signalLabel={t("signal")}
         signalValue={result.signal}
+        title={t(`title.${result.signal}`)}
         wordsLabel={t("words")}
         wordsValue={String(result.playerWords)}
       />
-      <ResultFeedback feedback={result.feedback} />
+      <ResultExplanation
+        actionLabel={t("nextStep")}
+        feedback={result.feedback}
+        rationale={result.rationale ?? t("fallbackRationale")}
+        title={t("whyGrade")}
+      />
       <AnswerComparison
         playerAnswer={
           <AnswerBlock
@@ -49,7 +46,6 @@ export function ResultView({ challenge, result, streak }: ResultViewProps) {
           />
         }
       />
-      <SignalCheck result={result} />
       <TomorrowNote text={t("tomorrow")} />
     </section>
   );

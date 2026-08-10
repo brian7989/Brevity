@@ -1,0 +1,155 @@
+{
+  "version": 1,
+  "language": "ko",
+  "challenges": [
+    {
+      "challengeId": "ko-challenge-01",
+      "answers": [
+        {
+          "kind": "excellent-concise",
+          "answer": "결제 버튼 접근성 문제를 고치기 위해 모바일 앱 출시를 일주일 미룹니다. 웹 서비스와 고객 정보에는 영향이 없습니다.",
+          "signal": "A",
+          "clarity": "A"
+        },
+        {
+          "kind": "excellent-verbose",
+          "answer": "최종 점검에서 화면 읽기 프로그램이 일부 결제 버튼을 제대로 읽지 못하는 문제가 발견돼 모바일 앱 출시를 일주일 미루고 접근성 레이블을 수정합니다. 고객 정보 노출 위험은 없고 웹 서비스는 정상입니다.",
+          "signal": "A",
+          "clarity": "A"
+        },
+        {
+          "kind": "short-missed-point",
+          "answer": "마케팅 캠페인을 중단합니다.",
+          "signal": "D",
+          "clarity": "A"
+        },
+        {
+          "kind": "mostly-correct-unclear",
+          "answer": "그 버튼 문제 때문에 앱은 늦추고 웹 쪽은 괜찮습니다.",
+          "signal": "B",
+          "clarity": "B"
+        },
+        {
+          "kind": "missing-causal-relationship",
+          "answer": "모바일 앱은 일주일 뒤 출시하고 웹 서비스는 정상입니다.",
+          "signal": "C",
+          "clarity": "A"
+        },
+        {
+          "kind": "material-contradiction",
+          "answer": "고객 정보가 노출돼 모바일 앱 출시를 일주일 미룹니다.",
+          "signal": "C",
+          "clarity": "A"
+        },
+        {
+          "kind": "overcompressed-fragment",
+          "answer": "앱 연기. 결제 버튼 접근성. 웹 정상.",
+          "signal": "B",
+          "clarity": "C"
+        },
+        { "kind": "irrelevant", "answer": "케이팝.", "signal": "D", "clarity": "D" }
+      ]
+    },
+    {
+      "challengeId": "ko-challenge-04",
+      "answers": [
+        {
+          "kind": "excellent-concise",
+          "answer": "재계약 증가로 분기 매출은 12% 늘었고 신규 매출은 계약 이연으로 목표에 못 미쳤지만, 확정 계약 덕분에 연간 전망은 유지합니다.",
+          "signal": "A",
+          "clarity": "A"
+        },
+        {
+          "kind": "excellent-verbose",
+          "answer": "중견 고객 재계약 증가로 분기 매출은 전년보다 12% 늘었습니다. 대형 계약 두 건이 다음 분기로 넘어가 신규 매출은 목표보다 9% 낮았지만, 두 계약이 이미 체결돼 10월 시작 예정이므로 연간 전망은 유지합니다.",
+          "signal": "A",
+          "clarity": "A"
+        },
+        {
+          "kind": "short-missed-point",
+          "answer": "분기 매출이 12% 늘었습니다.",
+          "signal": "C",
+          "clarity": "A"
+        },
+        {
+          "kind": "mostly-correct-unclear",
+          "answer": "재계약은 좋아졌고 신규는 밀렸지만 이미 된 게 있어서 전망은 그대로입니다.",
+          "signal": "B",
+          "clarity": "B"
+        },
+        {
+          "kind": "missing-causal-relationship",
+          "answer": "신규 고객 매출이 목표를 넘겨 연간 전망을 올립니다.",
+          "signal": "D",
+          "clarity": "A"
+        },
+        {
+          "kind": "material-contradiction",
+          "answer": "대형 계약 두 건이 취소돼 회사는 연간 매출 전망을 낮췄습니다.",
+          "signal": "D",
+          "clarity": "A"
+        },
+        {
+          "kind": "overcompressed-fragment",
+          "answer": "매출 12% 증가. 신규 미달. 전망 유지.",
+          "signal": "B",
+          "clarity": "C"
+        },
+        {
+          "kind": "irrelevant",
+          "answer": "오늘 점심은 김밥입니다.",
+          "signal": "D",
+          "clarity": "D"
+        }
+      ]
+    },
+    {
+      "challengeId": "ko-challenge-06",
+      "answers": [
+        {
+          "kind": "excellent-concise",
+          "answer": "정확도와 개인정보 요건을 충족하고 비용도 자체 개발의 3분의 1인 시중 검색 서비스를 도입해, 남는 개발 기간을 문서 품질과 검색 분석 개선에 씁니다.",
+          "signal": "A",
+          "clarity": "A"
+        },
+        {
+          "kind": "excellent-verbose",
+          "answer": "시제품 검토 결과 시중 검색 서비스가 정확도와 개인정보 보호 요건을 모두 충족했고 첫해 비용도 자체 개발 예상액의 3분의 1이므로, 직접 개발 대신 구매하고 절약한 한 분기는 문서 품질과 검색 데이터 분석 개선에 쓰자는 제안입니다.",
+          "signal": "A",
+          "clarity": "A"
+        },
+        {
+          "kind": "short-missed-point",
+          "answer": "시중 서비스를 구매합니다.",
+          "signal": "C",
+          "clarity": "A"
+        },
+        {
+          "kind": "mostly-correct-unclear",
+          "answer": "요건도 맞고 싸니까 만드는 대신 사고 남는 시간은 문서랑 분석 쪽에 씁니다.",
+          "signal": "B",
+          "clarity": "B"
+        },
+        {
+          "kind": "missing-causal-relationship",
+          "answer": "자체 개발 비용이 시중 서비스보다 3분의 1 저렴합니다.",
+          "signal": "D",
+          "clarity": "A"
+        },
+        {
+          "kind": "material-contradiction",
+          "answer": "시중 서비스가 개인정보 요건을 충족하지 못해 직접 개발을 계속합니다.",
+          "signal": "D",
+          "clarity": "A"
+        },
+        {
+          "kind": "overcompressed-fragment",
+          "answer": "시중 검색 충족. 비용 3분의 1. 문서·분석 개선.",
+          "signal": "B",
+          "clarity": "C"
+        },
+        { "kind": "irrelevant", "answer": "야구가 재밌습니다.", "signal": "D", "clarity": "D" }
+      ]
+    }
+  ]
+}

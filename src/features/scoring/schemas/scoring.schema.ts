@@ -5,6 +5,7 @@ export const semanticScoreSchema = z.object({
   signal: gradeSchema,
   clarity: gradeSchema,
   feedback: z.string().min(10).max(180),
+  rationale: z.string().min(20).max(260),
   preservedKeyPoints: z.array(z.string()).max(6),
   partialKeyPoints: z.array(z.string()).max(6),
   missedKeyPoints: z.array(z.string()).max(6),

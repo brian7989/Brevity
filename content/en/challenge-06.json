@@ -17,5 +17,19 @@
     }
   ],
   "referenceAnswer": "Stop charging Atlas kits with AT7 serial numbers and return them; replacement batteries ship within five business days.",
+  "referenceAnswers": [
+    {
+      "label": "Shortest good answer",
+      "text": "Stop charging AT7 Atlas kits and return the recalled batteries; replacements ship within five business days."
+    },
+    {
+      "label": "Clearest answer",
+      "text": "Atlas kits with serial numbers beginning AT7 are affected by a battery recall. Stop charging them and return the batteries; replacements ship within five business days."
+    },
+    {
+      "label": "Customer-safe answer",
+      "text": "Because one AT7 battery batch overheated, customers should stop charging affected Atlas kits and use today’s prepaid return label. Replacements ship within five business days."
+    }
+  ],
   "difficulty": "hard"
 }

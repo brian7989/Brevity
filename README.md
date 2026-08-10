@@ -46,7 +46,7 @@ npm run build
 
 With AI credentials configured, run the billable live calibration suite with `npm run test:ai`.
 
-Deterministic tests cover schemas, calibration completeness, result copy, word/compression logic, and streak persistence. Live model calibration runs separately because it is nondeterministic and billable; `evals/scoring` is the executable grading contract. Vercel Web Analytics records anonymous challenge-opened, submitted, completed, and next-day-return events; custom events require a Vercel Pro or Enterprise plan. Deploy as a standard Next.js application on Vercel, enable Web Analytics, and configure the AI variables there. No database is required.
+Deterministic tests cover schemas, calibration completeness, result copy, word/compression logic, and streak persistence. Live model calibration runs separately because it is nondeterministic and billable. `evals/scoring` contains only the JSON grading datasets; their schemas, loaders, and test runners live in `tests/scoring`. Vercel Web Analytics records anonymous challenge-opened, submitted, completed, and next-day-return events; custom events require a Vercel Pro or Enterprise plan. Deploy as a standard Next.js application on Vercel, enable Web Analytics, and configure the AI variables there. No database is required.
 
 Before making a public deployment, set an AI Gateway spend limit and rate-limit `POST /api/score` in Vercel Firewall. The API key remains server-only and must never use a `NEXT_PUBLIC_` prefix.
 

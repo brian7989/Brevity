@@ -1,0 +1,155 @@
+{
+  "version": 1,
+  "language": "en",
+  "challenges": [
+    {
+      "challengeId": "challenge-01",
+      "answers": [
+        {
+          "kind": "excellent-concise",
+          "answer": "The mobile app launch is delayed one week to fix inaccessible checkout labels; the web experience still works.",
+          "signal": "A",
+          "clarity": "A"
+        },
+        {
+          "kind": "excellent-verbose",
+          "answer": "Final accessibility testing found that several mobile checkout buttons lacked labels that screen readers could identify, so the team is postponing Tuesday's app launch by one week to correct and retest them; customers can continue using the unaffected web experience.",
+          "signal": "A",
+          "clarity": "A"
+        },
+        {
+          "kind": "short-missed-point",
+          "answer": "Marketing paused its campaign.",
+          "signal": "D",
+          "clarity": "A"
+        },
+        {
+          "kind": "mostly-correct-unclear",
+          "answer": "It moves a week because those labels there do not work, though the other version does.",
+          "signal": "B",
+          "clarity": "C"
+        },
+        {
+          "kind": "missing-causal-relationship",
+          "answer": "The mobile app launches next week, and the web experience still works.",
+          "signal": "C",
+          "clarity": "A"
+        },
+        {
+          "kind": "material-contradiction",
+          "answer": "The mobile launch is delayed because customer data was exposed, although the web app still works.",
+          "signal": "C",
+          "clarity": "A"
+        },
+        {
+          "kind": "overcompressed-fragment",
+          "answer": "Delayed labels, web okay.",
+          "signal": "B",
+          "clarity": "C"
+        },
+        { "kind": "irrelevant", "answer": "K-pop.", "signal": "D", "clarity": "D" }
+      ]
+    },
+    {
+      "challengeId": "challenge-06",
+      "answers": [
+        {
+          "kind": "excellent-concise",
+          "answer": "Stop charging Atlas kits with AT7 serial numbers and return them; replacement batteries ship within five business days.",
+          "signal": "A",
+          "clarity": "A"
+        },
+        {
+          "kind": "excellent-verbose",
+          "answer": "A recalled battery batch has overheated, so customers whose Atlas kit serial number starts with AT7 should stop charging the kit, use today's emailed prepaid return label, and expect a replacement within five business days.",
+          "signal": "A",
+          "clarity": "A"
+        },
+        {
+          "kind": "short-missed-point",
+          "answer": "Some batteries overheated.",
+          "signal": "C",
+          "clarity": "A"
+        },
+        {
+          "kind": "mostly-correct-unclear",
+          "answer": "Those AT7 ones should not do it and need to go back for another in five days.",
+          "signal": "B",
+          "clarity": "C"
+        },
+        {
+          "kind": "missing-causal-relationship",
+          "answer": "Return every Atlas field kit for a replacement battery.",
+          "signal": "C",
+          "clarity": "A"
+        },
+        {
+          "kind": "material-contradiction",
+          "answer": "Keep charging all Atlas kits; the AT7 issue caused no recall.",
+          "signal": "D",
+          "clarity": "A"
+        },
+        {
+          "kind": "overcompressed-fragment",
+          "answer": "AT7 hot. Stop. Five days.",
+          "signal": "B",
+          "clarity": "C"
+        },
+        {
+          "kind": "irrelevant",
+          "answer": "The weather is warm.",
+          "signal": "D",
+          "clarity": "D"
+        }
+      ]
+    },
+    {
+      "challengeId": "challenge-22",
+      "answers": [
+        {
+          "kind": "excellent-concise",
+          "answer": "Billing migrated without lost transactions; 3% may receive duplicate invoices, but nobody was charged twice.",
+          "signal": "A",
+          "clarity": "A"
+        },
+        {
+          "kind": "excellent-verbose",
+          "answer": "The overnight billing migration preserved every transaction, although a restarted notification job means roughly 3% of customers may receive duplicate invoice emails; these are messages only, not duplicate charges, and engineering is stopping the remaining sends.",
+          "signal": "A",
+          "clarity": "A"
+        },
+        {
+          "kind": "short-missed-point",
+          "answer": "The billing migration completed.",
+          "signal": "C",
+          "clarity": "A"
+        },
+        {
+          "kind": "mostly-correct-unclear",
+          "answer": "It moved fine, but three percent may see the same thing twice without it actually happening twice.",
+          "signal": "B",
+          "clarity": "C"
+        },
+        {
+          "kind": "missing-causal-relationship",
+          "answer": "Three percent of customers were charged twice after the migration.",
+          "signal": "D",
+          "clarity": "A"
+        },
+        {
+          "kind": "material-contradiction",
+          "answer": "The billing migration lost transactions, and duplicate invoice emails mean customers were charged twice.",
+          "signal": "D",
+          "clarity": "A"
+        },
+        {
+          "kind": "overcompressed-fragment",
+          "answer": "Migration okay, duplicate emails, no double charge.",
+          "signal": "B",
+          "clarity": "B"
+        },
+        { "kind": "irrelevant", "answer": "K-pop is popular.", "signal": "D", "clarity": "D" }
+      ]
+    }
+  ]
+}

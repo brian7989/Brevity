@@ -1,6 +1,10 @@
 import { z } from "zod";
 
 export const keyPointSchema = z.object({ text: z.string().min(3), importance: z.enum(["essential", "supporting"]) });
+export const referenceAnswerVariantSchema = z.object({
+  label: z.string().min(2).max(60),
+  text: z.string().min(10).max(300),
+});
 export const challengeSchema = z
   .object({
     id: z.string().regex(/^(?:ko-)?challenge-\d{2}$/),
@@ -9,6 +13,7 @@ export const challengeSchema = z
     passage: z.string().min(150).max(900),
     keyPoints: z.array(keyPointSchema).min(2).max(6),
     referenceAnswer: z.string().min(20).max(300),
+    referenceAnswers: z.array(referenceAnswerVariantSchema).min(1).max(4).optional(),
     difficulty: z.enum(["easy", "medium", "hard"]),
   })
   .superRefine((challenge, context) => {
@@ -39,6 +44,7 @@ export const challengesSchema = z.array(challengeSchema).min(1);
 
 export type Challenge = z.infer<typeof challengeSchema>;
 export type KeyPoint = z.infer<typeof keyPointSchema>;
+export type ReferenceAnswerVariant = z.infer<typeof referenceAnswerVariantSchema>;
 
 function wordCount(value: string): number {
   return value.trim().split(/\s+/u).filter(Boolean).length;

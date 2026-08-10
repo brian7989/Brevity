@@ -12,5 +12,9 @@ export default defineConfig({
       "@": path.resolve(directory, "src"),
     },
   },
-  test: { environment: "node", include: ["src/**/*.test.ts"], exclude: ["src/**/*.live.test.ts"] },
+  test: {
+    environment: "node",
+    include: ["src/**/*.test.ts", "tests/**/*.test.ts"],
+    exclude: ["**/*.live.test.ts"],
+  },
 });

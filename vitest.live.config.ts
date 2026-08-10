@@ -12,5 +12,5 @@ export default defineConfig({
       "@": path.resolve(directory, "src"),
     },
   },
-  test: { environment: "node", include: ["src/**/*.live.test.ts"], testTimeout: 30_000 },
+  test: { environment: "node", include: ["src/**/*.live.test.ts", "tests/**/*.live.test.ts"], testTimeout: 30_000 },
 });
