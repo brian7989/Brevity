@@ -17,5 +17,7 @@
     }
   ],
   "referenceAnswer": "Revenue rose 12% on renewals; new sales missed target due to two signed contracts slipping, so the annual forecast is unchanged.",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "targetWords": 26,
+  "formattingOpportunity": "optional"
 }

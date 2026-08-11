@@ -17,5 +17,7 @@
     }
   ],
   "referenceAnswer": "Buy the existing knowledge-base search service: it meets requirements at one-third the cost and frees a quarter for content improvements.",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "targetWords": 24,
+  "formattingOpportunity": "optional"
 }

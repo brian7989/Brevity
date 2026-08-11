@@ -15,6 +15,8 @@ export const challengeSchema = z
     referenceAnswer: z.string().min(20).max(300),
     referenceAnswers: z.array(referenceAnswerVariantSchema).min(1).max(4).optional(),
     difficulty: z.enum(["easy", "medium", "hard"]),
+    targetWords: z.number().int().min(5).max(40),
+    formattingOpportunity: z.enum(["none", "optional", "useful"]),
   })
   .superRefine((challenge, context) => {
     const passageUnits = wordCount(challenge.passage);

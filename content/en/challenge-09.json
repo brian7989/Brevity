@@ -17,5 +17,7 @@
     }
   ],
   "referenceAnswer": "Warehouse flooding damaged only packaging and will delay today's shipments 4–6 hours; tomorrow's orders remain on schedule.",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "targetWords": 21,
+  "formattingOpportunity": "optional"
 }

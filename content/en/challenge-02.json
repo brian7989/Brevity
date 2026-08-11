@@ -17,5 +17,7 @@
     }
   ],
   "referenceAnswer": "The four-day support pilot improved resolution time without hurting satisfaction, but Friday coverage needs fixing before a permanent decision.",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "targetWords": 23,
+  "formattingOpportunity": "optional"
 }

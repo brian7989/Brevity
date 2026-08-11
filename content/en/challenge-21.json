@@ -17,5 +17,7 @@
     }
   ],
   "referenceAnswer": "The cleanup collected a record 6.2 tons, led by fishing gear, prompting a request for covered bins at busy docks.",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "targetWords": 24,
+  "formattingOpportunity": "optional"
 }

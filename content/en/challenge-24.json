@@ -17,5 +17,7 @@
     }
   ],
   "referenceAnswer": "Real-time train suggestions reduced peak crowding 8% without lowering ridership, so the feature will expand systemwide.",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "targetWords": 20,
+  "formattingOpportunity": "none"
 }

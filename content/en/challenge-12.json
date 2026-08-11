@@ -17,5 +17,7 @@
     }
   ],
   "referenceAnswer": "Raise annual-plan prices 7% in January, but hold monthly prices because the same increase drove cancellations.",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "targetWords": 20,
+  "formattingOpportunity": "optional"
 }

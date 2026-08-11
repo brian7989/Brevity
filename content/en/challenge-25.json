@@ -17,5 +17,7 @@
     }
   ],
   "referenceAnswer": "A flu-vaccine shortage means priority groups get the clinic's remaining supply; others should book late October or use pharmacies.",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "targetWords": 23,
+  "formattingOpportunity": "useful"
 }

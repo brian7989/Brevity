@@ -1,6 +1,14 @@
-import { calculateCompression, countWords, localContentRepository, richTextToPlainText } from "@/features/challenge";
+import {
+  calculateCompression,
+  countWords,
+  localContentRepository,
+  richTextToPlainText,
+  sanitizeRichText,
+} from "@/features/challenge";
 import { evaluateWithAi } from "@/lib/ai";
 import { scoreRequestSchema, scoreResponseSchema, type ScoreResponse } from "@/features/scoring/schemas";
+
+import { createCanonicalReferenceScore } from "./canonical-reference-score";
 
 export class ScoringConfigurationError extends Error {}
 export class ChallengeNotFoundError extends Error {}
@@ -11,8 +19,11 @@ export async function scoreSubmission(input: unknown): Promise<ScoreResponse> {
   if (!challenge) throw new ChallengeNotFoundError();
   if (!process.env.AI_GATEWAY_API_KEY) throw new ScoringConfigurationError();
   const plainAnswer = richTextToPlainText(request.answer);
+  const structuredAnswer = sanitizeRichText(request.answer);
 
-  const semantic = await evaluateWithAi(challenge, plainAnswer);
+  const semantic =
+    createCanonicalReferenceScore(challenge, plainAnswer) ??
+    (await evaluateWithAi(challenge, plainAnswer, structuredAnswer));
   const playerWords = countWords(plainAnswer);
   const originalWords = countWords(challenge.passage);
 

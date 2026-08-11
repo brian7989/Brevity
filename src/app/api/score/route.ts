@@ -8,6 +8,9 @@ export async function POST(request: Request) {
     return NextResponse.json(await scoreSubmission(await request.json()));
   } catch (error) {
     const status = error instanceof ZodError ? 400 : error instanceof ChallengeNotFoundError ? 404 : 503;
+    if (status === 503) {
+      console.error("[score] Scoring failed", error);
+    }
     return NextResponse.json(
       {
         message:

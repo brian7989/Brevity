@@ -13,6 +13,13 @@
     "today": "오늘의 연습",
     "titlePrimary": "핵심은 지키고,",
     "titleAccent": "글은 간결하게.",
+    "mission": "핵심 {points}개 · {target}단어 이내",
+    "targetProgress": "{count} / {target}단어",
+    "formatting": {
+      "none": "일반 문장 권장",
+      "optional": "서식 선택",
+      "useful": "구조화 권장"
+    },
     "help": "원문의 핵심 내용과 인과관계는 그대로 두고, 불필요한 설명을 덜어 더 간결하고 명료하게 다시 써보세요.",
     "configurationError": "AI 채점이 설정되어 있지 않습니다. 제출하려면 AI Gateway 키를 추가하세요.",
     "original": "원문",
@@ -50,9 +57,22 @@
       "C": "핵심이 조금 흐려졌습니다.",
       "D": "핵심을 놓쳤습니다."
     },
+    "outcomeTitle": {
+      "perfect": "완벽합니다. 버릴 말이 없습니다.",
+      "meaningAndTarget": "핵심도, 길이도 잡았습니다.",
+      "overTarget": "핵심은 살렸습니다. 조금만 더 줄여보세요.",
+      "meaningMissed": "짧지만, 더 중요한 내용이 빠졌습니다."
+    },
     "signal": "핵심 전달",
     "clarity": "명확성",
     "words": "단어 수",
+    "meaning": "살린 핵심",
+    "target": "단어 목표",
+    "scanability": "가독성",
+    "formattingFeedback": "구조와 서식",
+    "met": "달성",
+    "missedTarget": "초과",
+    "meaningBreakdown": "핵심별 결과",
     "youWrote": "내 답안",
     "reference": "참고 답안",
     "strongVersions": "좋은 답안 예시",

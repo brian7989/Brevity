@@ -17,5 +17,7 @@
     }
   ],
   "referenceAnswer": "Product will relabel and regroup confusing dashboard filters next release, delaying exports by one sprint.",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "targetWords": 18,
+  "formattingOpportunity": "none"
 }

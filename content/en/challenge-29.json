@@ -17,5 +17,7 @@
     }
   ],
   "referenceAnswer": "A booking error oversold the members' preview; members keep seats, while nonmembers get refunds and first public-opening access.",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "targetWords": 22,
+  "formattingOpportunity": "useful"
 }

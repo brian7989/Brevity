@@ -17,5 +17,7 @@
     }
   ],
   "referenceAnswer": "Billing migrated without lost transactions; 3% of customers may get duplicate invoices but were not charged twice.",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "targetWords": 21,
+  "formattingOpportunity": "useful"
 }

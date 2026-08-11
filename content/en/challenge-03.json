@@ -17,5 +17,7 @@
     }
   ],
   "referenceAnswer": "Oak Street bridge is closed to vehicles through Friday for a precautionary joint repair; buses 4 and 7 will be delayed.",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "targetWords": 26,
+  "formattingOpportunity": "optional"
 }

@@ -17,14 +17,14 @@ export function richTextToPlainText(value: string): string {
 }
 
 export function sanitizeRichText(value: string): string {
-  if (typeof window === "undefined") return "";
-  const parsed = new DOMParser().parseFromString(value, "text/html");
-  for (const element of Array.from(parsed.body.querySelectorAll("*"))) {
-    if (!ALLOWED_TAGS.has(element.tagName)) {
-      element.replaceWith(...Array.from(element.childNodes));
-      continue;
-    }
-    for (const attribute of Array.from(element.attributes)) element.removeAttribute(attribute.name);
-  }
-  return parsed.body.innerHTML;
+  return value
+    .replace(/<!--.*?-->/gsu, "")
+    .replace(/<(script|style)\b[^>]*>[\s\S]*?<\/\1>/giu, "")
+    .replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/giu, (tag, name: string) => {
+      const upperName = name.toUpperCase();
+      if (!ALLOWED_TAGS.has(upperName)) return "";
+      const closing = /^<\//u.test(tag);
+      if (upperName === "BR") return "<br>";
+      return `<${closing ? "/" : ""}${name.toLowerCase()}>`;
+    });
 }

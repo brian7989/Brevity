@@ -12,6 +12,7 @@ type ChallengeWorkspaceProps = {
   plainAnswer: string;
   status: ChallengeGameStatus;
   submitDisabled: boolean;
+  targetWords: number;
 };
 
 export function ChallengeWorkspace({
@@ -23,6 +24,7 @@ export function ChallengeWorkspace({
   plainAnswer,
   status,
   submitDisabled,
+  targetWords,
 }: ChallengeWorkspaceProps) {
   return (
     <div className="workspace">
@@ -35,6 +37,7 @@ export function ChallengeWorkspace({
         plainAnswer={plainAnswer}
         status={status}
         submitDisabled={submitDisabled}
+        targetWords={targetWords}
       />
     </div>
   );

@@ -4,7 +4,9 @@ export const gradeSchema = z.enum(["A", "B", "C", "D"]);
 export const semanticScoreSchema = z.object({
   signal: gradeSchema,
   clarity: gradeSchema,
+  scanability: gradeSchema,
   feedback: z.string().min(10).max(180),
+  formattingFeedback: z.string().min(10).max(180),
   rationale: z.string().min(20).max(260),
   preservedKeyPoints: z.array(z.string()).max(6),
   partialKeyPoints: z.array(z.string()).max(6),
@@ -26,4 +28,5 @@ export const scoreResponseSchema = semanticScoreSchema.extend({
 });
 
 export type SemanticScore = z.infer<typeof semanticScoreSchema>;
+export type Grade = z.infer<typeof gradeSchema>;
 export type ScoreResponse = z.infer<typeof scoreResponseSchema>;

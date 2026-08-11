@@ -1,4 +1,5 @@
 export { AnswerComparison } from "./answer-comparison";
+export { MeaningBreakdown } from "./meaning-breakdown";
 export { OriginalPassageDisclosure } from "./original-passage-disclosure";
 export { ResultExplanation } from "./result-explanation";
 export { ResultEyebrow } from "./result-header";

@@ -14,6 +14,7 @@ type ResponseComposerProps = {
   plainAnswer: string;
   status: ChallengeGameStatus;
   submitDisabled: boolean;
+  targetWords: number;
 };
 
 export function ResponseComposer({
@@ -24,8 +25,10 @@ export function ResponseComposer({
   plainAnswer,
   status,
   submitDisabled,
+  targetWords,
 }: ResponseComposerProps) {
   const t = useTranslations("Game");
+  const answerWords = countWords(plainAnswer);
 
   return (
     <form
@@ -38,7 +41,8 @@ export function ResponseComposer({
       <ResponseHeader
         active={Boolean(plainAnswer)}
         label={t("yourVersion")}
-        words={`${countWords(plainAnswer)} ${t("words")}`}
+        overTarget={answerWords > targetWords}
+        words={t("targetProgress", { count: answerWords, target: targetWords })}
       />
       <RichTextEditor id="answer" value={answer} onChange={onAnswerChange} disabled={disabled} />
       <SubmitBar disabled={disabled || submitDisabled} hasAnswer={Boolean(plainAnswer)} status={status} />

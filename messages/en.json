@@ -13,6 +13,13 @@
     "today": "Today’s challenge",
     "titlePrimary": "Say what matters.",
     "titleAccent": "Use fewer words.",
+    "mission": "Keep {points} key ideas · {target} words or fewer",
+    "targetProgress": "{count} / {target} words",
+    "formatting": {
+      "none": "Plain text recommended",
+      "optional": "Formatting optional",
+      "useful": "Structure encouraged"
+    },
     "help": "Preserve the essential meaning and relationships, then remove unnecessary context to make the passage clear and concise.",
     "configurationError": "AI scoring is not configured. Add your gateway key to submit.",
     "original": "Original",
@@ -50,9 +57,22 @@
       "C": "The point blurred.",
       "D": "The point got lost."
     },
+    "outcomeTitle": {
+      "perfect": "Perfect. Nothing wasted.",
+      "meaningAndTarget": "Meaning kept. Target met.",
+      "overTarget": "Meaning kept. Cut once more.",
+      "meaningMissed": "Short, but something mattered more."
+    },
     "signal": "Signal",
     "clarity": "Clarity",
     "words": "Words",
+    "meaning": "Key ideas",
+    "target": "Word target",
+    "scanability": "Scanability",
+    "formattingFeedback": "Structure",
+    "met": "Met",
+    "missedTarget": "Missed",
+    "meaningBreakdown": "What survived",
     "youWrote": "You wrote",
     "reference": "Reference",
     "strongVersions": "Strong versions",

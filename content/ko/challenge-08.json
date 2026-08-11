@@ -4,10 +4,21 @@
   "date": "2026-08-08",
   "passage": "지난달부터 수요일 오후를 회의 없는 시간으로 운영한 결과, 직원 1인당 집중 근무 시간은 평균 46분 늘었고 협업 만족도도 떨어지지 않았습니다. 다만 직속 구성원이 6명 이상인 관리자는 별다른 효과를 보지 못했습니다. 회사는 현 제도를 유지하되, 앞으로 8주 동안 관리자에게는 별도의 집중 근무 시간을 보장하는 방안을 시험하기로 했습니다.",
   "keyPoints": [
-    { "text": "수요일 오후에 회의를 없애자 집중 근무 시간이 평균 46분 늘었다.", "importance": "essential" },
-    { "text": "직속 구성원이 6명 이상인 관리자에게는 같은 효과가 없었다.", "importance": "essential" },
-    { "text": "현 제도는 유지하면서 관리자에게 맞는 별도 방안을 시험한다.", "importance": "supporting" }
+    {
+      "text": "수요일 오후에 회의를 없애자 집중 근무 시간이 평균 46분 늘었다.",
+      "importance": "essential"
+    },
+    {
+      "text": "직속 구성원이 6명 이상인 관리자에게는 같은 효과가 없었다.",
+      "importance": "essential"
+    },
+    {
+      "text": "현 제도는 유지하면서 관리자에게 맞는 별도 방안을 시험한다.",
+      "importance": "supporting"
+    }
   ],
   "referenceAnswer": "수요일 오후에 회의를 없애자 집중 근무 시간이 늘었지만 관리자에게는 효과가 없어 별도 방안을 시험합니다.",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "targetWords": 17,
+  "formattingOpportunity": "none"
 }

@@ -1,5 +1,5 @@
 import type { Challenge } from "@/features/challenge";
-import { richTextToPlainText } from "@/features/challenge/utils";
+import { getChallengeGoal, richTextToPlainText } from "@/features/challenge/utils";
 
 import type { ChallengeGameStatus } from "./challenge-game-status";
 import { ChallengeIntro, ChallengeWorkspace } from "./components";
@@ -24,10 +24,17 @@ export function ChallengeRound({
   status,
 }: ChallengeRoundProps) {
   const plainAnswer = richTextToPlainText(answer);
+  const goal = getChallengeGoal(challenge);
 
   return (
     <section className="challenge" aria-labelledby="challenge-title">
-      <ChallengeIntro aiConfigured={aiConfigured} challengeId={challenge.id} />
+      <ChallengeIntro
+        aiConfigured={aiConfigured}
+        challengeId={challenge.id}
+        essentialPoints={goal.essentialPoints}
+        formattingOpportunity={challenge.formattingOpportunity}
+        targetWords={goal.targetWords}
+      />
       <ChallengeWorkspace
         answer={answer}
         challenge={challenge}
@@ -37,6 +44,7 @@ export function ChallengeRound({
         plainAnswer={plainAnswer}
         status={status}
         submitDisabled={!aiConfigured}
+        targetWords={goal.targetWords}
       />
     </section>
   );

@@ -4,10 +4,21 @@
   "date": "2026-08-10",
   "passage": "회사는 임대차 계약이 끝나는 내년 3월에 도심 사무실을 닫기로 했습니다. 이 사무실을 정기적으로 이용하는 직원은 14명뿐인 데다 재계약 임대료도 35% 올랐기 때문입니다. 회사는 해당 직원들에게 공유 오피스 이용권을 제공하고, 분기마다 열리는 대면 모임도 같은 도시에서 계속 진행할 예정입니다. 이번 결정에 따른 인원 감축은 없으며 원격근무 방침도 그대로 유지됩니다.",
   "keyPoints": [
-    { "text": "도심 사무실은 임대차 계약이 끝나는 내년 3월에 문을 닫는다.", "importance": "essential" },
-    { "text": "이용자가 적고 재계약 임대료가 35% 오른 것이 이유다.", "importance": "essential" },
-    { "text": "인원 감축이나 원격근무 방침 변경은 없다.", "importance": "essential" }
+    {
+      "text": "도심 사무실은 임대차 계약이 끝나는 내년 3월에 문을 닫는다.",
+      "importance": "essential"
+    },
+    {
+      "text": "이용자가 적고 재계약 임대료가 35% 오른 것이 이유다.",
+      "importance": "essential"
+    },
+    {
+      "text": "인원 감축이나 원격근무 방침 변경은 없다.",
+      "importance": "essential"
+    }
   ],
   "referenceAnswer": "이용자가 적고 임대료가 35% 올라 도심 사무실을 내년 3월 닫습니다. 인원 감축은 없으며 원격근무 방침도 유지됩니다.",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "targetWords": 20,
+  "formattingOpportunity": "useful"
 }

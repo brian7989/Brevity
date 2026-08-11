@@ -13,11 +13,13 @@ vi.mock("@/lib", () => ({ readPlayerState, recordResult, resetChallengeAttempt, 
 const challenge = {
   date: "2026-08-10",
   difficulty: "medium",
+  formattingOpportunity: "optional",
   id: "challenge-01",
   keyPoints: [{ importance: "essential", text: "Revenue rose because renewals offset weak new sales." }],
   language: "en",
   passage: "Quarterly revenue grew 12 percent because renewals offset weak new sales.",
   referenceAnswer: "Revenue rose because renewals offset weak new sales.",
+  targetWords: 10,
 } satisfies Challenge;
 
 const storedResult = {
@@ -27,6 +29,7 @@ const storedResult = {
   completedAt: "2026-08-10T12:00:00.000Z",
   compression: 70,
   feedback: "Good compression with the main point preserved.",
+  formattingFeedback: "Plain text keeps this short update easy to scan.",
   language: "en",
   localDate: "2026-08-10",
   missedKeyPoints: [],
@@ -35,6 +38,7 @@ const storedResult = {
   playerWords: 7,
   preservedKeyPoints: ["Revenue rose because renewals offset weak new sales."],
   rationale: "The answer preserves the main revenue result and weak new sales context.",
+  scanability: "A",
   signal: "A",
 } satisfies StoredResult;
 

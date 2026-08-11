@@ -17,5 +17,7 @@
     }
   ],
   "referenceAnswer": "Use recycled aluminum in the next laptop: it cuts material emissions 38% without hurting durability, at $4 more per unit.",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "targetWords": 24,
+  "formattingOpportunity": "optional"
 }

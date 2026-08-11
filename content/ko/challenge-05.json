@@ -4,10 +4,21 @@
   "date": "2026-08-05",
   "passage": "새 예약 시스템이 회원 자격을 잘못 판별해 정원 400명인 회원 대상 사전 관람 행사에 600명이 예약했습니다. 박물관은 회원의 예약은 모두 그대로 인정하기로 했습니다. 시스템 오류로 예약된 비회원에게는 예매 수수료를 돌려주고 정식 개관 첫날 우선 입장권을 제공합니다. 해당 관람객에게는 오늘 오후 5시까지 이메일로 안내하고, 같은 문제가 반복되지 않도록 자격 확인 절차를 수정할 예정입니다.",
   "keyPoints": [
-    { "text": "예약 시스템 오류로 정원 400명 행사에 600명이 예약했다.", "importance": "essential" },
-    { "text": "회원 예약은 모두 유지한다.", "importance": "essential" },
-    { "text": "비회원에게는 예매 수수료 환불과 정식 개관 첫날 우선 입장을 제공한다.", "importance": "essential" }
+    {
+      "text": "예약 시스템 오류로 정원 400명 행사에 600명이 예약했다.",
+      "importance": "essential"
+    },
+    {
+      "text": "회원 예약은 모두 유지한다.",
+      "importance": "essential"
+    },
+    {
+      "text": "비회원에게는 예매 수수료 환불과 정식 개관 첫날 우선 입장을 제공한다.",
+      "importance": "essential"
+    }
   ],
   "referenceAnswer": "예약 오류로 사전 관람 행사가 초과 접수됐습니다. 회원 예약은 유지하고 비회원에게는 환불과 정식 개관 첫날 우선 입장을 제공합니다.",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "targetWords": 22,
+  "formattingOpportunity": "useful"
 }

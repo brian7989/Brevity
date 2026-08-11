@@ -17,5 +17,7 @@
     }
   ],
   "referenceAnswer": "We will answer a cheaper competitor by emphasizing automation and testing a simpler starter product, not by cutting prices.",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "targetWords": 23,
+  "formattingOpportunity": "optional"
 }

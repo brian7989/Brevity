@@ -17,5 +17,7 @@
     }
   ],
   "referenceAnswer": "The library will open earlier Saturdays and close earlier Tuesdays starting September 5, then review attendance after three months.",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "targetWords": 23,
+  "formattingOpportunity": "useful"
 }

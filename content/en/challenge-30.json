@@ -17,5 +17,7 @@
     }
   ],
   "referenceAnswer": "The lightly used downtown office will close in March after a 35% rent increase; jobs and remote work are unaffected.",
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "targetWords": 24,
+  "formattingOpportunity": "optional"
 }

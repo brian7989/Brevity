@@ -1,5 +1,7 @@
-type PanelMetricProps = { active?: boolean; value: string };
+import { clsx } from "clsx";
 
-export function PanelMetric({ active = false, value }: PanelMetricProps) {
-  return <span className={active ? "count-active" : ""}>{value}</span>;
+type PanelMetricProps = { active?: boolean; exceeded?: boolean; value: string };
+
+export function PanelMetric({ active = false, exceeded = false, value }: PanelMetricProps) {
+  return <span className={clsx(active && "count-active", exceeded && "count-exceeded")}>{value}</span>;
 }

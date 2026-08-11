@@ -17,5 +17,7 @@
     }
   ],
   "referenceAnswer": "MFA blocked a bot attack with no breach; older employee passwords will be reset this week, with no action needed today.",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "targetWords": 26,
+  "formattingOpportunity": "useful"
 }

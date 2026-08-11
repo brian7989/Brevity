@@ -3,25 +3,30 @@ import { Score } from "./components";
 type ScoreListProps = {
   clarityLabel: string;
   clarityValue: string;
-  signalLabel: string;
-  signalValue: string;
-  wordsLabel: string;
-  wordsValue: string;
+  meaningLabel: string;
+  meaningValue: string;
+  scanabilityLabel: string;
+  scanabilityValue: string;
+  targetLabel: string;
+  targetValue: string;
 };
 
 export function ScoreList({
   clarityLabel,
   clarityValue,
-  signalLabel,
-  signalValue,
-  wordsLabel,
-  wordsValue,
+  meaningLabel,
+  meaningValue,
+  scanabilityLabel,
+  scanabilityValue,
+  targetLabel,
+  targetValue,
 }: ScoreListProps) {
   return (
     <dl className="score-list" aria-labelledby="result-title">
-      <Score label={signalLabel} value={signalValue} />
+      <Score label={meaningLabel} value={meaningValue} />
+      <Score label={targetLabel} value={targetValue} />
       <Score label={clarityLabel} value={clarityValue} />
-      <Score label={wordsLabel} value={wordsValue} />
+      <Score label={scanabilityLabel} value={scanabilityValue} />
     </dl>
   );
 }

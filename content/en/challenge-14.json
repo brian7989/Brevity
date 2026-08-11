@@ -17,5 +17,7 @@
     }
   ],
   "referenceAnswer": "The community clinic will open next summer after a cost-saving redesign, though fundraising still needs $400,000 for equipment.",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "targetWords": 22,
+  "formattingOpportunity": "optional"
 }

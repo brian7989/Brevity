@@ -4,6 +4,10 @@ import { scoreResponseSchema } from "@/features/scoring";
 
 export const storedResultSchema = scoreResponseSchema.extend({
   localDate: z.iso.date(),
+  scanability: scoreResponseSchema.shape.scanability.default("B"),
+  formattingFeedback: scoreResponseSchema.shape.formattingFeedback.default(
+    "Use formatting only when it makes the answer easier to scan.",
+  ),
   rationale: scoreResponseSchema.shape.rationale.default(
     "The grade reflects which essential meaning survived the rewrite.",
   ),

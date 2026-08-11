@@ -3,21 +3,25 @@ import { ResultTitle, ScoreList } from "./components";
 type ResultSummaryProps = {
   clarityLabel: string;
   clarityValue: string;
-  signalLabel: string;
-  signalValue: string;
+  meaningLabel: string;
+  meaningValue: string;
+  scanabilityLabel: string;
+  scanabilityValue: string;
+  targetLabel: string;
+  targetValue: string;
   title: string;
-  wordsLabel: string;
-  wordsValue: string;
 };
 
 export function ResultSummary({
   clarityLabel,
   clarityValue,
-  signalLabel,
-  signalValue,
+  meaningLabel,
+  meaningValue,
+  scanabilityLabel,
+  scanabilityValue,
+  targetLabel,
+  targetValue,
   title,
-  wordsLabel,
-  wordsValue,
 }: ResultSummaryProps) {
   return (
     <div className="result-summary">
@@ -25,10 +29,12 @@ export function ResultSummary({
       <ScoreList
         clarityLabel={clarityLabel}
         clarityValue={clarityValue}
-        signalLabel={signalLabel}
-        signalValue={signalValue}
-        wordsLabel={wordsLabel}
-        wordsValue={wordsValue}
+        meaningLabel={meaningLabel}
+        meaningValue={meaningValue}
+        scanabilityLabel={scanabilityLabel}
+        scanabilityValue={scanabilityValue}
+        targetLabel={targetLabel}
+        targetValue={targetValue}
       />
     </div>
   );

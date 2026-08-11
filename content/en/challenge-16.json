@@ -17,5 +17,7 @@
     }
   ],
   "referenceAnswer": "Yesterday's water-use article overstated agricultural growth as 14% instead of 4%; the main conclusion remains unchanged.",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "targetWords": 20,
+  "formattingOpportunity": "none"
 }

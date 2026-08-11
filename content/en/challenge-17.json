@@ -17,5 +17,7 @@
     }
   ],
   "referenceAnswer": "Third-floor renovations are two weeks late due to damaged panels, but temporary panels will protect the sales summit and budget.",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "targetWords": 24,
+  "formattingOpportunity": "optional"
 }

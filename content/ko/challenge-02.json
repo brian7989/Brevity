@@ -4,10 +4,21 @@
   "date": "2026-08-02",
   "passage": "고객지원팀이 6주간 주 4일 근무제를 시범 운영한 결과, 문의 해결 시간은 평균 18% 줄었고 고객 만족도도 떨어지지 않았습니다. 다만 금요일 오후 3시 이후 상담 인력이 부족해 주말 동안 미처리 문의가 쌓이는 문제가 생겼습니다. 회사는 금요일 순환 근무조를 추가해 시범 운영을 한 달 연장한 뒤, 새 데이터를 바탕으로 정식 도입 여부를 결정할 예정입니다.",
   "keyPoints": [
-    { "text": "주 4일 근무 시범 운영으로 문의 해결 시간이 18% 줄었다.", "importance": "essential" },
-    { "text": "금요일 오후 인력 부족으로 미처리 문의가 쌓였다.", "importance": "essential" },
-    { "text": "금요일 순환 근무를 추가해 한 달 더 검증한 뒤 정식 도입을 결정한다.", "importance": "supporting" }
+    {
+      "text": "주 4일 근무 시범 운영으로 문의 해결 시간이 18% 줄었다.",
+      "importance": "essential"
+    },
+    {
+      "text": "금요일 오후 인력 부족으로 미처리 문의가 쌓였다.",
+      "importance": "essential"
+    },
+    {
+      "text": "금요일 순환 근무를 추가해 한 달 더 검증한 뒤 정식 도입을 결정한다.",
+      "importance": "supporting"
+    }
   ],
   "referenceAnswer": "주 4일제로 문의 해결 시간은 18% 줄었지만 금요일 공백이 생겼습니다. 금요일 순환 근무를 추가해 한 달 더 검증합니다.",
-  "difficulty": "medium"
+  "difficulty": "medium",
+  "targetWords": 22,
+  "formattingOpportunity": "useful"
 }

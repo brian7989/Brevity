@@ -17,5 +17,7 @@
     }
   ],
   "referenceAnswer": "The mobile app launch is delayed one week to fix screen-reader labels; the web experience is unaffected.",
-  "difficulty": "easy"
+  "difficulty": "easy",
+  "targetWords": 21,
+  "formattingOpportunity": "none"
 }

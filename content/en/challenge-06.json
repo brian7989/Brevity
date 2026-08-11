@@ -31,5 +31,7 @@
       "text": "Because one AT7 battery batch overheated, customers should stop charging affected Atlas kits and use today’s prepaid return label. Replacements ship within five business days."
     }
   ],
-  "difficulty": "hard"
+  "difficulty": "hard",
+  "targetWords": 22,
+  "formattingOpportunity": "useful"
 }

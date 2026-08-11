@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "language": "en",
+  "examples": [
+    {
+      "challengeId": "challenge-06",
+      "kind": "useful-structure",
+      "answer": "AT7 battery recall. Stop charging affected Atlas kits and return them. Replacements ship within five business days.",
+      "structuredAnswer": "<h2>AT7 battery recall</h2><ul><li><strong>Stop charging</strong> affected Atlas kits and return them.</li><li>Replacements ship within five business days.</li></ul>",
+      "scanability": "A"
+    },
+    {
+      "challengeId": "challenge-06",
+      "kind": "decorative-overformatting",
+      "answer": "Stop charging Atlas kits with AT7 serial numbers and return them; replacement batteries ship within five business days.",
+      "structuredAnswer": "<h2>🚨 IMPORTANT AMAZING UPDATE 🚨</h2><p><strong><em>Stop charging Atlas kits with AT7 serial numbers and return them; replacement batteries ship within five business days.</em></strong></p>",
+      "scanability": "C"
+    },
+    {
+      "challengeId": "challenge-01",
+      "kind": "plain-text-is-best",
+      "answer": "The mobile app launch is delayed one week to fix screen-reader labels; the web experience is unaffected.",
+      "structuredAnswer": "<p>The mobile app launch is delayed one week to fix screen-reader labels; the web experience is unaffected.</p>",
+      "scanability": "A"
+    },
+    {
+      "challengeId": "challenge-01",
+      "kind": "forced-fragmented-list",
+      "answer": "Mobile app. Delayed one week. Screen-reader labels. Web unaffected.",
+      "structuredAnswer": "<h2>Update</h2><ul><li>Mobile app</li><li>Delayed one week</li><li>Screen-reader labels</li><li>Web unaffected</li></ul>",
+      "scanability": "C"
+    }
+  ]
+}
