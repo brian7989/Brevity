@@ -15,7 +15,11 @@ export async function generateMetadata(): Promise<Metadata> {
     description: t("description"),
     applicationName: "Brevity",
     appleWebApp: { capable: true, statusBarStyle: "default", title: "Brevity" },
-    icons: { apple: [{ url: "/icons/brevity-512.png", sizes: "512x512", type: "image/png" }] },
+    icons: {
+      icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
+      shortcut: ["/icon.svg"],
+      apple: [{ url: "/icons/brevity-512.png", sizes: "512x512", type: "image/png" }],
+    },
   };
 }
 
