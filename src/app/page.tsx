@@ -1,11 +1,11 @@
 import { getLocale } from "next-intl/server";
 
 import { BrevityGame } from "@/app/components";
-import { isAppLocale } from "@/i18n";
+import { defaultLocale, isAppLocale } from "@/i18n";
 
 export default async function HomePage() {
   const requestedLocale = await getLocale();
-  const locale = isAppLocale(requestedLocale) ? requestedLocale : "ko";
+  const locale = isAppLocale(requestedLocale) ? requestedLocale : defaultLocale;
   return (
     <BrevityGame
       aiConfigured={Boolean(process.env.AI_GATEWAY_API_KEY)}

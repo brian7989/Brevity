@@ -1,1 +1,1 @@
-export { defaultLocale, isAppLocale, localeCookie, locales, type AppLocale } from "./config";
+export { defaultLocale, isAppLocale, localeCookie, locales, resolveRequestLocale, type AppLocale } from "./config";
