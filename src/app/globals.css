@@ -995,14 +995,19 @@ footer {
     align-self: stretch;
   }
   .challenge__intro {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 12px;
+    display: grid;
+    gap: 9px;
     margin-bottom: 12px;
   }
   .challenge__meta {
-    flex: 0 0 auto;
+    min-width: 0;
+  }
+  .challenge-mission {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .challenge-mission span {
+    white-space: nowrap;
   }
   .challenge__heading {
     display: none;
