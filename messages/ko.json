@@ -23,6 +23,8 @@
     "help": "원문의 핵심 내용과 인과관계는 그대로 두고, 불필요한 설명을 덜어 더 간결하고 명료하게 다시 써보세요.",
     "configurationError": "AI 채점이 설정되어 있지 않습니다. 제출하려면 AI Gateway 키를 추가하세요.",
     "original": "원문",
+    "viewOriginal": "원문 보기",
+    "writeAnswer": "답안 쓰기",
     "yourVersion": "내 답안",
     "words": "단어",
     "answerRule": "답안은 한 번만 제출할 수 있습니다.",

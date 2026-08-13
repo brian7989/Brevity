@@ -23,6 +23,8 @@
     "help": "Preserve the essential meaning and relationships, then remove unnecessary context to make the passage clear and concise.",
     "configurationError": "AI scoring is not configured. Add your gateway key to submit.",
     "original": "Original",
+    "viewOriginal": "View original",
+    "writeAnswer": "Write my answer",
     "yourVersion": "Your version",
     "words": "words",
     "answerRule": "You can submit once.",
